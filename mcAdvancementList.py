@@ -25,3 +25,4 @@ for i in os.listdir(generatedAdvancementPath): # for each advancement folder
         # next line prints the commands
         print('execute as @a[advancements={{minecraft:{0}=true}}] run advancement grant @a[advancements={{minecraft:{0}=false}}] only minecraft:{0}'.format(advancementPath))
 input('\n\npress ENTER to exit')
+balls
